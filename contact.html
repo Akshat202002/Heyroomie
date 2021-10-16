@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div class="hero">
+        <div class="email-box">
+            <img data-tilt src="images/contact.svg" alt="guy holding phone">
+        </div>
+        <div class="contact-form">
+            <form action="mail.php" method="POST">
+                <h1>GET IN TOUCH</h1>
+                <div class="user">
+                    <i class="fa fa-user-o"></i>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </div>
+                <div class="email">
+                    <i class="fa fa-envelope-o"></i>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="subject">
+                    <i class="fa fa-envelope-o"></i>
+                    <label for="subject"></label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                </div>
+                <label for="message"></label>
+                <textarea id = "" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type = "submit" class="button" value="Send"></input>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    
+</body>
+</html>
