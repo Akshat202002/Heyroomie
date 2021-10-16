@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="homepage.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homepage.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Nav bar start -->
-    <nav id="nav">
+    <header>
+      <nav id="nav">
         <span class="titlespan">Hey Roomie!</span>
         <span>Home</span>
         <span>About Us</span>
         <span>Contact Us</span>
-    </nav>
+      </nav>
+    </header>
     <!-- Nav bar end -->
 
-    <h1>Find your perfect Roommate</h1>
-    <div class="container">
-        
-        <select name="gender" id="gender"> 
-            <option value="M/F">M/F</option>
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            
+    <!-- Section Start -->
+    <section>
+      <h1>Find your perfect Roommate</h1>
+      <div class="container">
+        <select name="gender" id="gender">
+          <option value="M/F">M/F</option>
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
         </select>
 
-        <input type="text" placeholder="Location">
+        <input type="text" placeholder="Location" />
 
         <select name="branch" id="branch">
-           
-            <option value="Branch">Branch</option>
-            <option value="CSE">CSE</option>
-            <option value="IT">IT</option>
-            <option value="ECE">EE</option>
-            <option value="EI">EI</option>
-            <option value="EE">EE</option>
-            <option value="ME">ME</option>
-            <option value="CE">CE</option>
-            <option value="BME">BME</option>
-
-            
+          <option value="Branch">Branch</option>
+          <option value="CSE">CSE</option>
+          <option value="IT">IT</option>
+          <option value="ECE">EE</option>
+          <option value="EI">EI</option>
+          <option value="EE">EE</option>
+          <option value="ME">ME</option>
+          <option value="CE">CE</option>
+          <option value="BME">BME</option>
         </select>
 
         <select name="batch" id="batch">
-           
-            <option value="Select batch">Select batch</option>
-            <option value="2024">2024</option>
-            <option value="2023">2023</option>
-            <option value="2022">2022</option>            
+          <option value="Select batch">Select batch</option>
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+          <option value="2022">2022</option>
         </select>
-        <br>
-    </div>
-        <input class="submitbtn" type="submit" value="SEARCH">
-
-
-</body>
+        <br />
+        <input class="submitbtn" type="submit" value="SEARCH" />
+      </div>
+    </section>
+    <!-- Section End -->
+  </body>
 </html>
