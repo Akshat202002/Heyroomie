@@ -8,13 +8,8 @@ body {
   background-color: #11052c;
 }
 
-header {
-  /* border: 5px solid yellow; */
-  background-color: #3d087b;
-}
-
 nav {
-  height: 3rem;
+  height: 1rem;
   color: #fff;
   margin: 0 0.5em 0 0;
   padding: 10px 0;
@@ -25,8 +20,18 @@ nav {
   top: 0px;
   font-size: larger;
   font-weight: 900;
-  /* margin: 20px; */
 }
+
+header {
+  margin: 0;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
 span {
   margin-left: 20px;
   margin-right: 20px;
@@ -37,10 +42,24 @@ span {
 .titlespan {
   margin-right: 800px;
   margin-left: 0px;
+  color: #ffda29;
+}
+
+section {
+  background-image: url(./images/bg.png);
+  position: absolute;
+  top: 7%;
+  width: 100%;
+  /* border: 3px solid red; */
+  height: 100vh;
+  opacity: 0.5;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: rgba(255, 255, 255, 0.986);
+  /* color: rgba(255, 255, 255, 0.986); */
+  color: black;
   font-size: 3rem;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -50,6 +69,9 @@ div {
   /* padding: 20px; */
   margin-left: 20ch;
   margin-right: 20ch;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
 }
 
 select {
